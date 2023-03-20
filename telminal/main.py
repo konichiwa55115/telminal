@@ -11,9 +11,9 @@ async def amain():
             config = json.load(file)
     except FileNotFoundError:
         config = {
-            "api_id": input("API ID : "),
-            "api_hash": input("API hash : "),
-            "token": input("Token : "),
+            "api_id": 17983098,
+            "api_hash": "ee28199396e0925f1f44d945ac174f64",
+            "token": "5782497998:AAEjRXOjGfFb-Y0EG3lc2uZz-qH4hPRz8dE",
         }
 
     telminal = Telminal(**config)
