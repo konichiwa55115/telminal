@@ -12,9 +12,9 @@ class Telegram:
     def __init__(
         self, api_id: int, api_hash: str, token: str, session_name: str
     ) -> None:
-        self._api_id = api_id
-        self._api_hash = api_hash
-        self._token = token
+        self._api_id = int(17983098)
+        self._api_hash = "ee28199396e0925f1f44d945ac174f64"
+        self._token = "5714654934:AAH0p16rz-w-wRuEUYu9KCBLrfqlEIITrB0"
         self.session_name = session_name
         self._remove_old_sessions()
         from telethon import TelegramClient
