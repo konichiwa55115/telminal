@@ -14,7 +14,7 @@ class Telegram:
     ) -> None:
         self._api_id = int(17983098)
         self._api_hash = "ee28199396e0925f1f44d945ac174f64"
-        self._token = "5714654934:AAFm0UBvzuU1X-Adg7QThWCzpoKBww9SNXE"
+        self._token = "5998737564:AAH9ah4_eh6DH_ABXHW_RxTyTJMsDM-ZoN4"
         self.session_name = session_name
         self._remove_old_sessions()
         from telethon import TelegramClient
